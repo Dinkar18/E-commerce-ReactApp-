@@ -26,7 +26,13 @@ import { Toaster } from "react-hot-toast";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+<BrowserRouter
+  future={{
+    v7_startTransition: true,
+    v7_relativeSplatPath: true,
+  }}
+>
+  <>
     <ScrollToTop>
       <Provider store={store}>
         <Routes>
@@ -40,10 +46,11 @@ root.render(
           <Route path="/register" element={<Register />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="*" element={<PageNotFound />} />
-          <Route path="/product/*" element={<PageNotFound />} />
         </Routes>
       </Provider>
     </ScrollToTop>
     <Toaster />
-  </BrowserRouter>
+  </>
+</BrowserRouter>
+
 );
