@@ -1,68 +1,42 @@
-E-Commerce Website
-A fully functional E-Commerce website built using React.js with Redux for state management.
+# 🛒 React E-Commerce Website
 
-🔗 Live Demo
-https://reactjs-ecommerce-app.vercel.app/
+A modern, responsive E-Commerce application built using **React**, **Redux**, and **Bootstrap**. This project displays a collection of products using a public API, allows users to filter by category, add products to the cart, and navigate to checkout. It is easy to integrate with real-world backends or extend with payment gateways.
 
-🛍 Features
-Clean and modern UI
+## 🔗 Live Demo
 
-Filter and category-wise product browsing
+👉 [Visit Live Site](https://reactjs-ecommerce-app.vercel.app/)
 
-Redux-based cart management
+## 📸 Screenshots
 
-Responsive layout for all devices
+![App Screenshot](https://i.ibb.co/fQ293tm/image.png)
 
-Easily replaceable product API (currently uses DummyJSON or Fake Store API)
+---
 
-Easy to integrate with real backend & payment systems
+## 🚀 Features
 
-📸 Screenshots
+- 🛍 Browse products by category
+- 🔎 Product filtering and search
+- 🛒 Add to cart functionality using Redux
+- ✅ Ready for backend/API integration
+- 📱 Fully responsive design
+- 🔧 Skeleton loading for better UX
 
+---
 
-🚀 Run Locally
+## 🧰 Tech Stack
+
+- **React.js** – Frontend UI
+- **Redux** – State management
+- **React Router** – Navigation
+- **Bootstrap** – UI styling
+- **React Skeleton** – Loading placeholders
+- **DummyJSON API** *(recommended)* / [FakeStore API](https://fakestoreapi.com/)
+
+---
+
+## 🧪 Run Locally
+
 Clone the project:
 
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/Dinkar18/React_E-Commerce.git
-Navigate to the project directory:
-
-bash
-Copy
-Edit
-cd React_E-Commerce
-Install dependencies:
-
-bash
-Copy
-Edit
-npm install
-Start the development server:
-
-bash
-Copy
-Edit
-npm start
-🛠 Tech Stack
-React
-
-Redux
-
-Bootstrap
-
-DummyJSON API (or easily replaceable with any real API)
-
-🙋‍♂️ Author
-Developed with ❤️ by Dinkar Arya
-
-📬 Portfolio Website
-
-🤝 Contributing
-Contributions are always welcome!
-
-Feel free to fork the repo and submit a pull request or open an issue to suggest improvements.
-
-📬 Feedback
-If you have any suggestions, questions, or feedback, please reach out to me via my portfolio.
