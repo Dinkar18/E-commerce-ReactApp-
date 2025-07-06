@@ -2,28 +2,61 @@ import React from "react";
 
 const Home = () => {
   return (
-    <>
-      <div className="hero border-1 pb-3">
-        <div className="card bg-dark text-white border-0 mx-3">
-          <img
-            className="card-img img-fluid"
-            src="./assets/main.png.jpg"
-            alt="Card"
-            height={500}
-          />
-          <div className="card-img-overlay d-flex align-items-center">
-            <div className="container">
-              <h5 className="card-title fs-1 text fw-lighter">New Season Arrivals</h5>
-              <p className="card-text fs-5 d-none d-sm-block ">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-            </div>
+    <div className="hero border-1 pb-3">
+      <div
+        id="heroCarousel"
+        className="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="1000"   // <== interval to 1 second
+      >
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img
+              src="/images/image3.webp"
+              className="d-block w-100"
+              alt="Slide 1"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="/images/image2.webp"
+              className="d-block w-100"
+              alt="Slide 2"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="/images/image1.webp"
+              className="d-block w-100"
+              alt="Slide 3"
+            />
           </div>
         </div>
+
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="prev"
+        >
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+        </button>
+        <button
+          className="carousel-control-next"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="next"
+        >
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+        </button>
       </div>
-    </>
+    </div>
   );
 };
 

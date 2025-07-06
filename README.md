@@ -1,67 +1,68 @@
-# E-Commerce Website
+E-Commerce Website
+A fully functional E-Commerce website built using React.js with Redux for state management.
 
-A Ecommerce Website made with React.js Framework.
-
-
-## Demo
-
+🔗 Live Demo
 https://reactjs-ecommerce-app.vercel.app/
 
-## Features
+🛍 Features
+Clean and modern UI
 
-- Easy to integrate with Backend
-- Fully Responsive
+Filter and category-wise product browsing
 
+Redux-based cart management
 
-## Screenshots
+Responsive layout for all devices
 
-![App Screenshot](https://i.ibb.co/fQ293tm/image.png)
+Easily replaceable product API (currently uses DummyJSON or Fake Store API)
 
+Easy to integrate with real backend & payment systems
 
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/ssahibsingh/React_E-Commerce
-```
-
-Go to the project directory
-
-```bash
-  cd React_E-Commerce
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm start
-```
+📸 Screenshots
 
 
+🚀 Run Locally
+Clone the project:
 
-## Tech Stack
+bash
+Copy
+Edit
+git clone https://github.com/Dinkar18/React_E-Commerce.git
+Navigate to the project directory:
 
-* [React](https://reactjs.org/)
-* [Redux](https://redux.js.org/)
-* [Bootstrap](https://getbootstrap.com/)
-* [Fake Store API](https://fakestoreapi.com/)
+bash
+Copy
+Edit
+cd React_E-Commerce
+Install dependencies:
 
-## Contributing
+bash
+Copy
+Edit
+npm install
+Start the development server:
 
+bash
+Copy
+Edit
+npm start
+🛠 Tech Stack
+React
+
+Redux
+
+Bootstrap
+
+DummyJSON API (or easily replaceable with any real API)
+
+🙋‍♂️ Author
+Developed with ❤️ by Dinkar Arya
+
+📬 Portfolio Website
+
+🤝 Contributing
 Contributions are always welcome!
-Just raise an issue, we will discuss it.
 
+Feel free to fork the repo and submit a pull request or open an issue to suggest improvements.
 
-## Feedback
-
-If you have any feedback, please reach out to me [here](https://ssahibsingh.github.io/#contact)
-
-
+📬 Feedback
+If you have any suggestions, questions, or feedback, please reach out to me via my portfolio.
