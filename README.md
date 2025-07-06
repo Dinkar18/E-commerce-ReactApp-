@@ -4,7 +4,7 @@ A modern, responsive E-Commerce application built using **React**, **Redux**, an
 
 ## 🔗 Live Demo
 
-👉 [Visit Live Site](https://reactjs-ecommerce-app.vercel.app/)
+👉 [Visit Live Site](https://686a33d6659d788ede8e67cf--e-commerce-shopp-karo.netlify.app/)
 
 ## 📸 Screenshots
 
